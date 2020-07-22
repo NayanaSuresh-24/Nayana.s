@@ -5,4 +5,26 @@ while num1>0:
   sum1=sum1+num1
   num1=num1-1;
 print("sum of first",temp1,"natural number",sum1)
+
+enter the positive  value of n:4
+sum of first 4 natural number 10
+
+
+num1=int(input("enter a number:"))
+if num1>1:
+    for i in range(2,num1):
+        if(num1%i)==0:
+            print(num1,"is not a prime number")
+            break
+        else:
+            print(num1,"is a prime number")
+else:
+    print(num1,"is not a prime number")
+    
+    enter a number:1
+    1 is not a prime number
+    
+    enter a number:3
+    3 is a prime number
+
     
