@@ -1,0 +1,45 @@
+str1="what we think we become;we are python programmers"
+index=0
+substring="we"
+while index<len(str1):
+    index=str1.find(substring,index)
+    if index==-1:
+        break
+    print(substring, "found at",index)
+    index=index+2
+count=str1.count(substring)
+print("The count is:",count)
+
+we found at 5
+we found at 14
+we found at 24
+The count is: 3
+
+list1="APPLE"
+list1.isupper()
+True
+
+list1.islower()
+False
+
+list2="orange"
+list2.isupper()
+False
+
+list2.islower()
+True
+
+list3="Mango45"
+list3.islower()
+False
+
+list3.isupper()
+False
+
+list4="hello23"
+list4.isupper()
+False
+
+list4.islower()
+True
+ 
