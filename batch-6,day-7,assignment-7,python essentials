@@ -1,0 +1,29 @@
+port1={21:"FTP",22:"SSH",23:"telnet",80:"http"}
+print(port1)
+port2={}
+for key,value in port1.items():
+    port2[value]=key
+print(port2)
+
+{21: 'FTP', 22: 'SSH', 23: 'telnet', 80: 'http'}
+{'FTP': 21, 'SSH': 22, 'telnet': 23, 'http': 80}
+
+
+list1=[(1,2),(3,4),(5,6),(4,5)]
+list2=[]
+for k,v in list1:
+    list2.append(k+v)
+print(list2)
+
+[3, 7, 11, 9]
+
+
+list1=[(1,2,3),[1,2],["a","hit","less"]]
+list2=tuple(list1[1]+list1[2])
+list3=tuple(list1[0])
+list3=list3+list2
+print(list3)
+
+(1, 2, 3, 1, 2, 'a', 'hit', 'less')
+
+
